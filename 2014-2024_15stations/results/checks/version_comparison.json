@@ -1,0 +1,42 @@
+{
+  "previous": {
+    "period": "2021-2024",
+    "stations": 18,
+    "k": 2,
+    "silhouette": 0.6086224476933956,
+    "valid": 602167,
+    "coverage": 0.9540760387355185
+  },
+  "new": {
+    "period": "2014-2024",
+    "stations": 15,
+    "k": 3,
+    "silhouette": 0.4391445599180609,
+    "valid": 1383597,
+    "coverage": 0.9565268790443007
+  },
+  "same15_recent": {
+    "period": "2021-2024",
+    "stations": 15,
+    "selected_k": 3,
+    "silhouette": 0.604274094097
+  },
+  "comparisons": [
+    {
+      "comparison": "Cohort change at fixed K=2, 2021-2024",
+      "stations": 15,
+      "ari": 1.0
+    },
+    {
+      "comparison": "Cohort change with K reselected, 2021-2024",
+      "stations": 15,
+      "ari": 0.9418711939472227
+    },
+    {
+      "comparison": "Period change on same15 at long-window K",
+      "stations": 15,
+      "ari": 0.5011437620974837
+    }
+  ],
+  "note": "Model-standardization is refit for each cohort/window. K selection can change even when the fixed-K partition agrees."
+}

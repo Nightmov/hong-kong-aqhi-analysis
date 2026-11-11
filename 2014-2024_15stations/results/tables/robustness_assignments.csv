@@ -1,0 +1,16 @@
+﻿station,primary,include_estimated,exclude_2023_08,delivered_time,2014_2018,2019_2024,2021_2024_same15,ward,equal_feature_blocks,equal_months,minimum_group_coverage_90pct
+Causeway Bay,2,2,2,2,3,1,1,2,3,2,
+Central,2,2,2,2,2,1,1,2,2,2,2
+Central/Western,1,1,1,1,1,1,1,1,1,1,1
+Eastern,1,1,1,1,1,1,1,1,1,1,
+Kwai Chung,1,1,1,1,1,1,1,1,1,1,1
+Kwun Tong,1,1,1,1,1,1,1,1,1,1,1
+Mong Kok,2,2,2,2,2,1,1,2,2,2,
+Sha Tin,1,1,1,1,1,1,1,1,1,1,1
+Sham Shui Po,1,1,1,1,1,1,1,1,1,1,1
+Tai Po,1,1,1,1,1,1,1,1,1,1,1
+Tap Mun,2,2,2,2,1,3,3,2,2,2,
+Tsuen Wan,1,1,1,1,1,1,1,1,1,1,
+Tuen Mun,3,3,3,3,2,2,2,3,3,3,3
+Tung Chung,3,3,3,3,2,2,2,3,3,3,3
+Yuen Long,3,3,3,3,2,2,2,3,2,3,3

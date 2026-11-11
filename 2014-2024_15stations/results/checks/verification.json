@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "independently_recalculated_features": 120,
+  "feature_max_abs_error": 4.190953140081888e-13,
+  "input_hashes_unchanged": true,
+  "calendar_expected_checked": true,
+  "count_conservation_checked": true,
+  "midnight_rollover_checked": true,
+  "ten_plus_category_checked": true,
+  "bootstrap_matrix_checked": true,
+  "analysis_rows": 1383597,
+  "expected_station_hours": 1446480
+}

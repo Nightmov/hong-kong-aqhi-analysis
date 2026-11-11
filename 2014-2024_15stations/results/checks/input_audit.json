@@ -1,0 +1,13 @@
+{
+  "rows": 1641240,
+  "stations": 15,
+  "source_files": 151,
+  "source_datetime_min": "2013-12-30 00:00:00",
+  "source_datetime_max": "2026-06-30 23:00:00",
+  "analysis_datetime_min": "2013-12-30 01:00:00",
+  "analysis_datetime_max": "2026-07-01 00:00:00",
+  "missing": 13286,
+  "estimated_nonmissing": 53174,
+  "capped": 1678,
+  "duplicate_source_keys": 0
+}

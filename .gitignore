@@ -1,0 +1,37 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Historical parallel-computing outputs outside this personal contribution
+**/results/tables/parallel_*.csv
+**/results/checks/benchmark_environment.json
+
+# Obsolete packaging manifests
+**/results/checks/delivery_manifest.json
+
+# Keep analysis code, config.json, requirements, Markdown, CSV, PNG and SVG results.

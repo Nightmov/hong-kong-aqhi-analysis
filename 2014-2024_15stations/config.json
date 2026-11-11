@@ -1,0 +1,22 @@
+{
+  "input_directory": "../../处理后数据/处理后数据",
+  "main_start": "2014-01-01",
+  "main_end_exclusive": "2025-01-01",
+  "time_mapping": "source_date_plus_hour",
+  "exclude_estimated": true,
+  "high_risk_threshold": 7,
+  "minimum_overall_coverage": 0.90,
+  "minimum_feature_coverage": 0.80,
+  "minimum_month_coverage_for_weekday_gap": 0.85,
+  "k_candidates": [2, 3, 4],
+  "random_seed": 42,
+  "n_init": 100,
+  "bootstrap_repetitions": 200,
+  "excluded_stations": ["Tseung Kwan O", "Southern", "North"],
+  "expected_station_count": 15,
+  "period_checks": [
+    ["2014_2018", "2014-01", "2019-01"],
+    ["2019_2024", "2019-01", "2025-01"],
+    ["2021_2024_same15", "2021-01", "2025-01"]
+  ]
+}

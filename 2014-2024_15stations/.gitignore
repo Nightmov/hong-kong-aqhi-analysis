@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+build/previews/
+build/*.png
+build/*.pptx
+build/*.ndjson
+build/*.validation.json
+build/presentation_validation_*.json
+build/chart_snapshot_*.json
+.chart-data-*/
+deliverables/*.pdf
+deliverables/*.pptx
+*.zip
+data/
+node_modules/

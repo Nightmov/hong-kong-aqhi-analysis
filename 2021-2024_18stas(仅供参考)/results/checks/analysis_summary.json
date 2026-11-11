@@ -1,0 +1,72 @@
+{
+  "selected_k": 2,
+  "silhouette": 0.6086224476933956,
+  "eligible_stations": [
+    "Causeway Bay",
+    "Central",
+    "Central/Western",
+    "Eastern",
+    "Kwai Chung",
+    "Kwun Tong",
+    "Mong Kok",
+    "North",
+    "Sha Tin",
+    "Sham Shui Po",
+    "Southern",
+    "Tai Po",
+    "Tap Mun",
+    "Tseung Kwan O",
+    "Tsuen Wan",
+    "Tuen Mun",
+    "Tung Chung",
+    "Yuen Long"
+  ],
+  "expected": 631152,
+  "present": 628128,
+  "nonmissing": 618138,
+  "excluded_estimated": 15971,
+  "valid": 602167,
+  "high": 9878,
+  "analysis_coverage": 0.9540760387355185,
+  "bootstrap_ari_median": 1.0,
+  "bootstrap_exact_fraction": 0.85,
+  "bootstrap_ari_q025": 0.7378826925059275,
+  "bootstrap_ari_q975": 1.0,
+  "clusters": {
+    "1": [
+      "Causeway Bay",
+      "Central",
+      "Central/Western",
+      "Eastern",
+      "Kwai Chung",
+      "Kwun Tong",
+      "Mong Kok",
+      "North",
+      "Sha Tin",
+      "Sham Shui Po",
+      "Southern",
+      "Tai Po",
+      "Tseung Kwan O",
+      "Tsuen Wan"
+    ],
+    "2": [
+      "Tap Mun",
+      "Tuen Mun",
+      "Tung Chung",
+      "Yuen Long"
+    ]
+  },
+  "cluster_risk": {
+    "1": 0.013102986417154646,
+    "2": 0.02818604533168327
+  },
+  "runtime": {
+    "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pandas": "2.2.2",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "sklearn": "1.5.2",
+    "matplotlib": "3.9.0"
+  }
+}

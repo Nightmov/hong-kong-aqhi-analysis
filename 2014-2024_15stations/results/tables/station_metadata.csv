@@ -1,0 +1,16 @@
+﻿station_code,station_en,station_zh,address,latitude,longitude,station_type,first_year
+Central/Western,Central & Western,中西区,"Sai Ying Pun Community Complex, 2 High Street, Central & Western District, Hong Kong",22.2849,114.14441,Urban,2013
+Eastern,Eastern,东区,"Sai Wan Ho Fire Station, 20 Wai Hang Street, Eastern District, Hong Kong",22.2829,114.21937,Urban,2013
+Kwun Tong,Kwun Tong,观塘,"Kwun Tong Police Station, 9 Lei Yue Mun Road, Kwun Tong, Kowloon",22.30965,114.23118,Urban,2013
+Sham Shui Po,Sham Shui Po,深水埗,"Sham Shui Po Police Station, 37A Yen Chow Street, Sham Shui Po, Kowloon",22.33023,114.15911,Urban,2013
+Kwai Chung,Kwai Chung,葵涌,"Kwai Chung Police Station, 999 Kwai Chung Road, Kwai Chung, New Territories",22.35713,114.12955,Urban,2013
+Tsuen Wan,Tsuen Wan,荃湾,"Lady Trench Community Centre, 60 Tai Ho Road, Tsuen Wan, New Territories",22.37175,114.11453,Urban,2013
+Yuen Long,Yuen Long,元朗,"Yuen Long District Office Building, 269 Castle Peak Road, Yuen Long, New Territories",22.44516,114.02265,Urban,2013
+Tuen Mun,Tuen Mun,屯门,"Tuen Mun Public Library, 1 Tuen Hi Road, Tuen Mun, New Territories",22.39115,113.97673,Urban,2013
+Tung Chung,Tung Chung,东涌,"Tung Chung Health Centre, 6 Fu Tung Street, Tung Chung, New Territories",22.28891,113.94366,Rural,2013
+Tai Po,Tai Po,大埔,"Tai Po Government Offices, 1 Ting Kok Road, Tai Po, New Territories",22.45097,114.16457,Urban,2013
+Sha Tin,Sha Tin,沙田,"Sha Tin Government Secondary School, 11-17 Man Lai Road, Sha Tin, New Territories",22.3763,114.18453,Urban,2013
+Tap Mun,Tap Mun,塔门,"Tap Mun Police Post, Tap Mun",22.47133,114.36072,Rural,2013
+Causeway Bay,Causeway Bay,铜锣湾,"1 Yee Wo Street, Causeway Bay, Hong Kong",22.28013,114.18509,Roadside,2013
+Central,Central,中环,"Junction of Chater Road and Des Voeux Road Central, Central, Hong Kong",22.28181,114.15809,Roadside,2013
+Mong Kok,Mong Kok,旺角,"Junction of Nathan Road and Lai Chi Kok Road, Mong Kok, Kowloon",22.32263,114.16826,Roadside,2013

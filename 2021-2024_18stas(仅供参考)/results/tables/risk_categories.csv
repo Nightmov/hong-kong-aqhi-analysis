@@ -1,0 +1,91 @@
+﻿station,risk_category,count
+Causeway Bay,High,300
+Causeway Bay,Low,17446
+Causeway Bay,Moderate,15773
+Causeway Bay,Serious,3
+Causeway Bay,Very high,202
+Central,High,249
+Central,Low,18615
+Central,Moderate,14519
+Central,Serious,3
+Central,Very high,184
+Central/Western,High,306
+Central/Western,Low,18948
+Central/Western,Moderate,14302
+Central/Western,Serious,29
+Central/Western,Very high,222
+Eastern,High,234
+Eastern,Low,17711
+Eastern,Moderate,15574
+Eastern,Serious,8
+Eastern,Very high,137
+Kwai Chung,High,231
+Kwai Chung,Low,20758
+Kwai Chung,Moderate,12615
+Kwai Chung,Serious,10
+Kwai Chung,Very high,168
+Kwun Tong,High,205
+Kwun Tong,Low,19636
+Kwun Tong,Moderate,13728
+Kwun Tong,Serious,10
+Kwun Tong,Very high,157
+Mong Kok,High,288
+Mong Kok,Low,18279
+Mong Kok,Moderate,14716
+Mong Kok,Serious,2
+Mong Kok,Very high,189
+North,High,313
+North,Low,20579
+North,Moderate,11968
+North,Serious,18
+North,Very high,288
+Sha Tin,High,217
+Sha Tin,Low,21628
+Sha Tin,Moderate,11672
+Sha Tin,Serious,1
+Sha Tin,Very high,150
+Sham Shui Po,High,218
+Sham Shui Po,Low,19199
+Sham Shui Po,Moderate,13582
+Sham Shui Po,Serious,11
+Sham Shui Po,Very high,180
+Southern,High,218
+Southern,Low,19776
+Southern,Moderate,13236
+Southern,Serious,14
+Southern,Very high,150
+Tai Po,High,314
+Tai Po,Low,20988
+Tai Po,Moderate,12039
+Tai Po,Serious,7
+Tai Po,Very high,207
+Tap Mun,High,601
+Tap Mun,Low,19012
+Tap Mun,Moderate,12378
+Tap Mun,Serious,37
+Tap Mun,Very high,537
+Tseung Kwan O,High,191
+Tseung Kwan O,Low,19914
+Tseung Kwan O,Moderate,13249
+Tseung Kwan O,Serious,9
+Tseung Kwan O,Very high,113
+Tsuen Wan,High,219
+Tsuen Wan,Low,21981
+Tsuen Wan,Moderate,11178
+Tsuen Wan,Serious,10
+Tsuen Wan,Very high,169
+Tuen Mun,High,496
+Tuen Mun,Low,19224
+Tuen Mun,Moderate,12782
+Tuen Mun,Serious,33
+Tuen Mun,Very high,495
+Tung Chung,High,338
+Tung Chung,Low,23868
+Tung Chung,Moderate,8905
+Tung Chung,Serious,15
+Tung Chung,Very high,342
+Yuen Long,High,428
+Yuen Long,Low,21357
+Yuen Long,Moderate,11154
+Yuen Long,Serious,26
+Yuen Long,Very high,376
