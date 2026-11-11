@@ -95,4 +95,4 @@ python -B -X utf8 "2014-2024_15stations/src/validate_outputs.py"
 
 成员2的数据不包含在此个人源码目录内。默认应放在与advance_analysis相邻的`处理后数据/处理后数据`目录，包含`aqhi_long.csv`、`stations.csv`及`长表字段说明.txt`。若实际位置不同，修改各版本`config.json`中的`input_directory`；相对路径以config.json所在目录为基准，与终端当前位置无关。
 
-18站参考版的运行方法见其README。results中的历史并行、版本对照及交付清单文件为此前保留材料，不由当前两个脚本生成，也不参与当前验证；本次未运行或恢复串并行实验。
+18站参考版的运行方法见其README。
