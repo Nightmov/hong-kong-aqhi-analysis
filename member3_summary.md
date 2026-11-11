@@ -78,6 +78,7 @@
 | 早峰减日间 | -1.49个百分点 | -3.47个百分点 |
 | 晚峰减日间 | 2.85个百分点 | 5.74个百分点 |
 | 配对后的平日减周末 | 0.06个百分点 | 0.14个百分点 |
+
 ![标准化后的监测站特征热图](<2021-2024_18stas(仅供参考)/results/figures/feature_heatmap.png>)
 
 
@@ -91,7 +92,7 @@ python -B -X utf8 "2014-2024_15stations/src/analyze.py"
 python -B -X utf8 "2014-2024_15stations/src/validate_outputs.py"
 ```
 
-主分析会重新生成统计表和7张图，验证脚本会独立重算120个特征并更新检查结果。两步均不依赖串并行实验。
+主分析会重新生成统计表和7张图，验证脚本会独立重算120个特征并更新检查结果。
 
 成员2的数据不包含在此个人源码目录内。默认应放在与advance_analysis相邻的`处理后数据/处理后数据`目录，包含`aqhi_long.csv`、`stations.csv`及`长表字段说明.txt`。若实际位置不同，修改各版本`config.json`中的`input_directory`；相对路径以config.json所在目录为基准，与终端当前位置无关。
 
