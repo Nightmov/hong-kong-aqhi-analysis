@@ -97,10 +97,24 @@
 python -m pip install -r "2014-2024_15stations/requirements-lock.txt"
 python -B -X utf8 "2014-2024_15stations/src/analyze.py"
 python -B -X utf8 "2014-2024_15stations/src/validate_outputs.py"
+python -B -X utf8 "2014-2024_15stations/src/association_rules.py"
+python -B -X utf8 "2014-2024_15stations/src/validate_association_outputs.py"
 ```
 
 主分析会重新生成统计表和7张图，验证脚本会独立重算120个特征并更新检查结果。
 
-成员2的数据不包含在此个人源码目录内。默认应放在与advance_analysis相邻的`处理后数据/处理后数据`目录，包含`aqhi_long.csv`、`stations.csv`及`长表字段说明.txt`。若实际位置不同，修改各版本`config.json`中的`input_directory`；相对路径以config.json所在目录为基准，与终端当前位置无关。
+关联规则模块另外生成每日事务、规则表、验证结果和1张提升度热图，复用现有依赖。`validate_association_outputs.py`独立核对事务、210个有向站对指标、规则筛选及敏感性结果。
+
+成员2的数据不包含在此个人源码目录内。默认应放在与advance_analysis相邻的`处理后数据/处理后数据`目录，包含`aqhi_long.csv`、`stations.csv`及`长表字段说明.txt`。若实际位置不同，修改各版本`config.json`中的`input_directory`；相对路径以config.json所在目录为基准。
 
 18站参考版的运行方法见其README。
+
+## 九、补充分析：高风险事件的关联规则
+
+我们发现：香港一些监测站的高风险空气质量事件，经常在同一天出现，而且不少关系在后续年份依然存在。
+
+例如，2021—2024年的合格日期中，屯门有120天出现高风险，其中98天元朗也出现高风险，占约 82%。这说明屯门和元朗的高风险事件具有较强的同日关联。
+
+从整体看，我们在早期数据中找到189条候选关系，其中138条在后续年份仍达到预设标准。不过，部分关系会变化，例如塔门与屯门的关联就比早期减弱了。
+
+因此，我们的发现是：高风险事件具有站点间共同出现的特点。

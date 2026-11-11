@@ -14,6 +14,19 @@
   "bootstrap_repetitions": 200,
   "excluded_stations": ["Tseung Kwan O", "Southern", "North"],
   "expected_station_count": 15,
+  "association_rules": {
+    "validation_start": "2021-01-01",
+    "minimum_daily_valid_hours": 20,
+    "minimum_daily_high_hours": 1,
+    "minimum_support": 0.01,
+    "minimum_confidence": 0.60,
+    "minimum_lift": 1.20,
+    "minimum_antecedent_days": 50,
+    "minimum_joint_days": 30,
+    "validation_minimum_antecedent_days": 20,
+    "validation_minimum_joint_days": 10,
+    "bootstrap_repetitions": 200
+  },
   "period_checks": [
     ["2014_2018", "2014-01", "2019-01"],
     ["2019_2024", "2019-01", "2025-01"],

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "dates_rebuilt": 4018,
+  "station_days_rebuilt": 60270,
+  "eligible_dates": 1837,
+  "all_directed_pairs_verified": 210,
+  "frequent_itemsets_verified": 120,
+  "candidate_rules_verified": 189,
+  "discovery_only_selection_checked": true,
+  "empty_transactions_retained": true,
+  "unknowns_not_encoded_as_absence": true,
+  "seasonal_and_sensitivity_metrics_checked": true,
+  "bootstrap_interval_bounds_checked": true,
+  "known_apriori_fixture_passed": true,
+  "maximum_saved_metric_absolute_error": 4.952660503931838e-11,
+  "source_hash_unchanged": true
+}

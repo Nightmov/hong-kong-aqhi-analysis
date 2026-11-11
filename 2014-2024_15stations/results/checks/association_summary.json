@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "validation_start": "2021-01-01",
+    "minimum_daily_valid_hours": 20,
+    "minimum_daily_high_hours": 1,
+    "minimum_support": 0.01,
+    "minimum_confidence": 0.6,
+    "minimum_lift": 1.2,
+    "minimum_antecedent_days": 50,
+    "minimum_joint_days": 30,
+    "validation_minimum_antecedent_days": 20,
+    "validation_minimum_joint_days": 10,
+    "bootstrap_repetitions": 200
+  },
+  "method": "Apriori L1/L2 join-and-prune; single-station antecedent/consequent only",
+  "high_risk_threshold": 7,
+  "stations": [
+    "Central/Western",
+    "Eastern",
+    "Kwai Chung",
+    "Kwun Tong",
+    "Sha Tin",
+    "Sham Shui Po",
+    "Tai Po",
+    "Tsuen Wan",
+    "Causeway Bay",
+    "Central",
+    "Mong Kok",
+    "Tap Mun",
+    "Tuen Mun",
+    "Tung Chung",
+    "Yuen Long"
+  ],
+  "expected_dates": 4018,
+  "eligible_dates": 1837,
+  "excluded_dates": 2181,
+  "discovery_dates": 1063,
+  "validation_dates": 774,
+  "discovery_empty_transactions": 788,
+  "validation_empty_transactions": 594,
+  "frequent_singletons": 15,
+  "frequent_pairs": 105,
+  "candidate_rules": 189,
+  "validation_pass_rules": 138,
+  "validation_positive_lift_rules": 189,
+  "pairwise_coverage_validation_pass_rules": 142,
+  "input_file": "aqhi_long.csv",
+  "input_sha256": "9028ca9a02df51db0428db286614b57461ba71f9571f02e634b4b51fc0a448a4",
+  "core_input_manifest_matches": true,
+  "runtime": {
+    "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2"
+  },
+  "caveats": [
+    "All metrics are conditional on common eligible dates.",
+    "Validation rules are frozen using discovery data only.",
+    "Pooled metrics are descriptive, not held-out evidence.",
+    "Bootstrap fixes the selected rules; no causal or propagation inference.",
+    "Cluster comparison is descriptive because both analyses use AQHI."
+  ]
+}
