@@ -1,0 +1,6 @@
+Dataset,Cores,Time_Seconds,Speedup
+Logical Sharding (Single File),1,0.9608321189880371,1.0
+Logical Sharding (Single File),2,1.216454029083252,0.7898630741616619
+Logical Sharding (Single File),4,1.3510887622833252,0.7111539565796117
+Logical Sharding (Single File),8,1.3063812255859375,0.735491371255037
+Logical Sharding (Single File),10,1.2993037700653076,0.7394976764669453
